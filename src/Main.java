@@ -11,5 +11,7 @@ public class Main {
 
         String resultadoFinal = verificarAprovacao.verificarNota(notaDigitada);
         System.out.println("Seu resultado final é: " + resultadoFinal);
+
+        sc.close();
     }
 }

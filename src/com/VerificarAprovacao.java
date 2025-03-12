@@ -8,7 +8,6 @@ public class VerificarAprovacao {
     public VerificarAprovacao(int nota){
         this.nota = nota;
     }
-
     public String verificarNota(int nota){
         if (nota >= 6){
             resultado = "Aprovado.";
