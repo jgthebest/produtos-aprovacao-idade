@@ -2,15 +2,18 @@ package com;
 
 public class VerificarAprovacao {
 
-    int nota;
+    float nota;
     String resultado;
 
-    public VerificarAprovacao(int nota){
+    public VerificarAprovacao(float nota){
         this.nota = nota;
     }
-    public String verificarNota(int nota){
+    public String verificarNota(float nota){
         if (nota >= 6){
             resultado = "Aprovado.";
+        }
+        else if (nota >= 5 && nota < 6){
+            resultado = "Recuperação";
         }
         else{
             resultado = "Reprovado.";
