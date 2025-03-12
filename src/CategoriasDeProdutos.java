@@ -18,6 +18,8 @@ public class CategoriasDeProdutos {
                 break;
             case 4:
                 mensagem = "Livros";
+            default:
+                mensagem = "Categoria não encontrada";
         }
         return mensagem;
     }

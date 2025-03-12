@@ -20,9 +20,5 @@ public class Main {
         System.out.println("Seu resultado final é: " + resultadoFinal);
         System.out.println(isMaior);
         System.out.println(categoria);
-
-
-
-
     }
 }
