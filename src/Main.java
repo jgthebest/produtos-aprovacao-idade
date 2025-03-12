@@ -1,6 +1,3 @@
-import com.VerificarAprovacao;
-import com.VerificarIdade;
-
 import java.util.Scanner;
 
 public class Main {

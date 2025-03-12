@@ -1,5 +1,3 @@
-package com;
-
 public class VerificarIdade {
     int idade;
     String mensagem;
