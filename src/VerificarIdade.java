@@ -1,6 +1,6 @@
 public class VerificarIdade {
-    int idade;
-    String mensagem;
+    private int idade;
+    private String mensagem;
 
     public VerificarIdade(int idade){
         this.idade = idade;
